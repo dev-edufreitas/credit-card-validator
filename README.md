@@ -12,13 +12,12 @@ Este é um projeto simples para validar números de cartão de crédito. Ele pod
   - [Web](#web)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Instalação
 
 \`\`\`bash
-git clone https://github.com/seu-usuario/seu-projeto.git
-cd seu-projeto
+git clone https://github.com/dev-edufreitas/credit-card-validator.git
+cd credit-card-validator
 composer install
 \`\`\`
 
@@ -48,12 +47,8 @@ Para usar a interface web, basta abrir seu navegador e ir para \`http://localhos
 ## Tecnologias Utilizadas
 
 - Laravel
-- Outras tecnologias...
 
 ## Contribuição
 
 Se você encontrou um bug ou quer contribuir com novas funcionalidades, sinta-se à vontade para criar um Issue ou um Pull Request.
 
-## Licença
-
-MIT License
