@@ -12,37 +12,38 @@ Este é um projeto simples para validar números de cartão de crédito. Ele pod
   - [Web](#web)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Contribuição](#contribuição)
+- [Licença](#licença)
 
 ## Instalação
 
-\`\`\`bash
+```bash
 git clone https://github.com/dev-edufreitas/credit-card-validator.git
 cd credit-card-validator
 composer install
-\`\`\`
+```
 
 ## Uso
 
 ### API
 
-Para validar um número de cartão de crédito através da API, faça uma requisição POST para o endpoint \`/api/validateCreditCard\`. Você deve incluir um campo \`credit_card_number\` no corpo da requisição:
+Para validar um número de cartão de crédito através da API, faça uma requisição POST para o endpoint `/api/validateCreditCard`. Você deve incluir um campo `credit_card_number` no corpo da requisição:
 
-\`\`\`bash
+```bash
 curl -X POST -d "credit_card_number=1234567812345678" http://localhost/api/validateCreditCard
-\`\`\`
+```
 
-A resposta será um objeto JSON contendo os campos \`valid\` e \`brand\`, que representam a validade e a bandeira do cartão de crédito, respectivamente:
+A resposta será um objeto JSON contendo os campos `valid` e `brand`, que representam a validade e a bandeira do cartão de crédito, respectivamente:
 
-\`\`\`json
+```json
 {
     "valid": true,
     "brand": "Visa"
 }
-\`\`\`
+```
 
 ### Web
 
-Para usar a interface web, basta abrir seu navegador e ir para \`http://localhost\`.
+Para usar a interface web, basta abrir seu navegador e ir para `http://localhost`.
 
 ## Tecnologias Utilizadas
 
@@ -52,3 +53,6 @@ Para usar a interface web, basta abrir seu navegador e ir para \`http://localhos
 
 Se você encontrou um bug ou quer contribuir com novas funcionalidades, sinta-se à vontade para criar um Issue ou um Pull Request.
 
+## Licença
+
+MIT License
