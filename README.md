@@ -1,6 +1,7 @@
 # Validador de Cartão de Crédito
-![Exemplo software funcionando](https://i.ibb.co/t4YHPJ1/validcreditcard.png)
-![Exemplo software funcionando](https://i.ibb.co/YfsFgRm/validcreditcard2.png)
+
+<img src="https://i.ibb.co/t4YHPJ1/validcreditcard.png" width="333"/> <img src="https://i.ibb.co/YfsFgRm/validcreditcard2.png" width="333"/>
+<img src="https://i.ibb.co/4fY5NH5/validcreditcard3.png" width="333"/>
 
 
 ## Descrição
