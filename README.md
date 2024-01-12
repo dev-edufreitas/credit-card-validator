@@ -8,6 +8,7 @@ Exemplo de funcionamento [Web](#web)<br>
 ## Descrição
 
 Este é um projeto simples para validar números de cartão de crédito. Ele pode ser utilizado tanto como uma API quanto como uma aplicação web.
+Aqui foi utilizado o Algoritmo de Luhn, para fazer a validação e verificação desse cartão.
 
 ## Índice
 
