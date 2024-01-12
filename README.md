@@ -54,10 +54,3 @@ Para usar a interface web, basta abrir seu navegador e ir para `http://localhost
 
 - Laravel
 
-## Contribuição
-
-Se você encontrou um bug ou quer contribuir com novas funcionalidades, sinta-se à vontade para criar um Issue.
-
-## Licença
-
-MIT License
